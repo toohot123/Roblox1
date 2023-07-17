@@ -22,7 +22,7 @@ _G["External Config"] = {
     ["Fps Limit"] = 15, -- number
     ["Lock Fps"] = true, -- true / false
     ["Release Fps When Rejoin"] = false, -- true / false
-    ["Select Unit"] = {"Slot 1", "Slot 2", "Slot 3"}, -- table  {"Slot 1", "Slot 2", "Slot 3", "Slot 4", "Slot 5", "Slot 6"}
+    ["Select Unit"] = {"Slot 1", "Slot 2", "Slot 3", "Slot 4", "Slot 5", "Slot 6"}, -- table  {"Slot 1", "Slot 2", "Slot 3", "Slot 4", "Slot 5", "Slot 6"}
 };
 local Key = _G.Key
 local DiscordId = _G.DiscordId
