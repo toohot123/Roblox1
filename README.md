@@ -1,7 +1,3 @@
-local Key = _G.Key
-local DiscordId = _G.DiscordId
-
-queue_on_teleport(string.format([[
 _G.RoyxSpecialMode = "Hell Factory";
 _G["External Config"] = {
     ["Kai Gems"] = true, -- true / false
@@ -28,6 +24,11 @@ _G["External Config"] = {
     ["Release Fps When Rejoin"] = false, -- true / false
     ["Select Unit"] = {"Slot 1", "Slot 2", "Slot 3"}, -- table  {"Slot 1", "Slot 2", "Slot 3", "Slot 4", "Slot 5", "Slot 6"}
 };
+local Key = _G.Key
+local DiscordId = _G.DiscordId
+
+queue_on_teleport(string.format([[
+
     _G.Key = "%s"
     _G.DiscordId = "%s"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))()
